@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:compat="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls"
+             x:Class="TestMauiApp.Views.MainPage">
+    <compat:Grid ColumnDefinitions="24, *"
+                ColumnSpacing="16">
+        <ContentView Grid.Column="0">
+            <Image Source="https://images.pexels.com/photos/850359/pexels-photo-850359.jpeg?cs=srgb&amp;dl=pexels-jess-bailey-designs-850359.jpg&amp;fm=jpg"
+                        HeightRequest="24"
+                        WidthRequest="24">
+            </Image>
+        </ContentView>
+        <Label Text="Pretty Flower" Grid.Column="1" />
+    </compat:Grid>
+</ContentPage>
